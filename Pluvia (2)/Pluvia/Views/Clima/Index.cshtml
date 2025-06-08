@@ -1,0 +1,15 @@
+@model Pluvia.ViewModels.UsuarioViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Informações do Usuário";
+}
+
+<h1 class="text-center">Clima e Risco de Alagamento</h1>
+
+<div class="card mt-4 p-4 shadow">
+    <h3>Usuário: @Model.Nome</h3>
+
+    <p><strong>Clima Atual:</strong> @Model.ClimaInfo</p>
+    <p><strong>Risco de Alagamento:</strong> @Model.RiscoAlagamento</p>
+</div>

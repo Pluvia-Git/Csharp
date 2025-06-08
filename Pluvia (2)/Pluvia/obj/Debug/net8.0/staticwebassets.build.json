@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "uKax6wUMHY6B1tVgSAWQZrCA91LFei4l+hfhYLyuCkE=",
+  "Source": "Pluvia",
+  "BasePath": "_content/Pluvia",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Pluvia\\wwwroot",
+      "Source": "Pluvia",
+      "ContentRoot": "C:\\Users\\gabriel\\Downloads\\Pluvia (2)\\Pluvia\\wwwroot\\",
+      "BasePath": "_content/Pluvia",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
